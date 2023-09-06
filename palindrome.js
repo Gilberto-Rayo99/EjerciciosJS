@@ -15,7 +15,7 @@ function isPalindromeAsReverse(word) {
     return word === reversedWord; // Compare original word with reversed word
 }
 
-const wordList = ["kayak", "hello", "level", "madam", "world"];
+const wordList = ["kayak", "hello", "level", "madam", "world"];//Objetos en cadena
 
 for (const word of wordList) {
     const result = isPalindromeAsReverse(word);
