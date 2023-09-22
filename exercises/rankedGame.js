@@ -2,13 +2,10 @@ function rankingLinealSearch(ranked, player) {
   let uniq = [...new Set(ranked)];
   let rank = [];
   let len = uniq.length;
-  console.log("uniq var: ", uniq);
-  console.log("length uniq: ", len);
+
   player.forEach((p) => {
     let index = uniq.findIndex((u) => p >= u);
     rank.push(index >= 0 ? index + 1 : len + 1);
-    console.log("index: ", index);
-    console.log("Map rank: ", rank);
   });
 
   return rank;

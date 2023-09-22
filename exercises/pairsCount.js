@@ -3,6 +3,7 @@ function pairsCount(ar) {
   var result = 0;
   ar.forEach((number) => {
     count[number] = (count[number] || 0) + 1;
+    console.log(count[number])
     if (count[number] % 2 === 0) {
       result++;
       count[number] = 0;
