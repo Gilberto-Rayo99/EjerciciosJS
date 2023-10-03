@@ -123,7 +123,7 @@ console.log(user.location?.city); //Evita errores por si no existe, retorna Unde
 
 //--------------------------------------------FETCH ASYNC AWAIT-----------------------------------------------//
 //FETCH --!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
- const ul = document.createElement("ul");
+const ul = document.createElement("ul");
 /*fetch("https://jsonpLaceholder.typicode.com/posts")
   .then(function (response) {
     return response.json();

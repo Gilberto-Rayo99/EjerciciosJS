@@ -1,5 +1,5 @@
 const l = 23;
-const s = 'bbaabbaa';
+const s = 'Wayne Drimaz';
 console.error(s);
 const sSorted = s.split('').sort();
 let r = '';
